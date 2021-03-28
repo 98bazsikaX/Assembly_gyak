@@ -29,7 +29,7 @@ asd:
     mov dh, szoveg[0][1*ebx] /*dh(8bit) betesszuk a 8bites karaktert*/
     cmp dh, 0x1f /*osszehasonlitju a legnagyobb kontroll karakterrel, ami nem a DEL mert az dec 127*/
     ja asd /*ja = unsigned dh>0x1f, ha dh nagyobb akkor az asd-ra megyunk,ha nem akkor a vege cimkere, de az redundans*/
-    jb vege /*ha kisebb 0-nal a dh-0x1f akkor  kontroll karakterhez erunk es ekkor ugrik a vegrehajtas a vege cimkere*/
+    jbe vege /*ha kisebb 0-nal a dh-0x1f akkor  kontroll karakterhez erunk es ekkor ugrik a vegrehajtas a vege cimkere*/
 
 vege:
     mov eax,0
