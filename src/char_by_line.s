@@ -1,13 +1,7 @@
-/*
-Forditas:
-
-
-*/
-
 .intel_syntax noprefix
 .data
 formatstr:
-    .asciz "char ==  %c \r\n" /*TODO:megcsinalni*/
+    .asciz "char ==  %c \r\n"
 szoveg:
     .asciz "Hello World!\r\n"
 test_valami:
