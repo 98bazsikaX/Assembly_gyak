@@ -8,7 +8,7 @@ min_val:
     .int 0
 
 max_val:
-    .int 0x100 /*decimalisan 255*/
+    .int 0x100 /*decimalisan 256*/
 
 .text
 .global main
