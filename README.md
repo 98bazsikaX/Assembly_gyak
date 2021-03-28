@@ -4,6 +4,7 @@ A repo-t főleg amiatt hoztam létre hogy a barátaimnak megtudjam mutatni azoka
 
 ## [Soronkénti karakterek](./src/char_by_line.s)
 Az első komolyabb assembly kódom, a .data section szoveg cimkéjű szöveget írja ki soronként
+
 TODO: nem teljesen működik
 
 [ C kód megfelelője:](./src/char_by_line.c)
