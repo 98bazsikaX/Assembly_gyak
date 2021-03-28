@@ -49,3 +49,8 @@ Az eddigi összes assembly file úgy fordítható hogy
 ```bash
 gcc -m32 -o [output] [input.s]
 ```
+
+A C kódok pedig
+```bash
+gcc -Wall -o [output] [input.c]
+```
