@@ -57,3 +57,22 @@ A C kódok pedig
 ```bash
 gcc -Wall -o [output] [input.c]
 ```
+## [Az angol abc kisbetűi](./src/every_lower_case.s)
+A program kiírja az angol abc kisbetűit
+
+A C-kód megfelelője az assembly forrásfájl elején található meg
+```C
+char a = 'a';
+for(int i = 0;a<'z';++i){
+    printf("%c",a);
+    ++a;
+}
+```
+### Fordítás:
+```bash
+gcc -m32 -o [output] [input.s]
+```
+A C kódok pedig
+```bash
+gcc -Wall -o [output] [input.c]
+```
