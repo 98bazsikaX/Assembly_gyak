@@ -1,2 +1,5 @@
 /executables
 *.out
+.vscode/settings.json
+/.dist
+/.vscode
